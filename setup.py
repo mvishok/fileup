@@ -1,9 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="fileup",
-    version="0.1.0",
+    name="fileup.py",
+    version="0.1.1",
     description="A Python package that simplifies the auto-update process by updating individual files with remote versions based on file-specific version comments.",
+    long_description_content_type="text/markdown",
+    long_description=open("README.md").read(),
     author="Vishok M",
     author_email="hello@vishok.me",
     url="https://github.com/mvishok/fileup",
