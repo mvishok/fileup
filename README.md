@@ -6,7 +6,7 @@
 
 Install the package using pip:
 
-``` npm install fileupjs ```
+``` npm install @mvishok/fileup.js ```
 
 ## Usage
 1. Set the remote file URL in your script.
