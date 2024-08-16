@@ -1,5 +1,5 @@
 {
-  "name": "@mvishok/fileup.js",
+  "name": "jsfileup",
   "version": "1.0.0",
   "description": "Effortless script updates",
   "main": "fileUpdater.js",
