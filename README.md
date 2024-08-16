@@ -15,9 +15,13 @@ Install the package using pip:
 ### Example
 
 ```python
-import fileup
+#0.0.1
 
-REMOTE_FILE_URL = "https://example.com/path/to/your/script.py"
+import fileup
+from fileup import RepoURLBuilder
+
+# Example URL creation
+REMOTE_FILE_URL = RepoURLBuilder.github("mvishok", "tests", "main", "example.py")
 
 def main():
     # Your main script logic here
@@ -26,3 +30,7 @@ def main():
 if __name__ == "__main__":
     fileup.update(REMOTE_FILE_URL)
     main()
+```
+
+### A NPM Version
+A NPM version of this package is available [here](https://www.npmjs.com/package/jsfileup).
